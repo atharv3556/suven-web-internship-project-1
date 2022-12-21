@@ -61,17 +61,16 @@
           </div>
 
         </div>
-<div class="dropdown">
-  <button class="dropbtn"><span id="genreText">Genre</span><i class="fa fa-caret-down"></i></button>
-  <div class="dropdown-content">
-    <a onclick="getMediaPosters(this.text)">All</a>
-    <a onclick="getMediaPosters(this.text)">Action</a>
-    <a onclick="getMediaPosters(this.text)">Drama</a>
-    <a onclick="getMediaPosters(this.text)">Sci-Fi</a>
-  </div>
-
-</div>
         <div class="search-container">
+          <div class="dropdown">
+            <button class="dropbtn"><span id="genreText">Genre</span><i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+              <a onclick="getMediaPosters(this.text)">All</a>
+              <a onclick="getMediaPosters(this.text)">Action</a>
+              <a onclick="getMediaPosters(this.text)">Drama</a>
+              <a onclick="getMediaPosters(this.text)">Sci-Fi</a>
+  </div>
+  </div>
           <form onsubmit="javascript:return false;">
             <input type="text" class="input-medium search-query" placeholder="Search your favourite movie title" name="search" oninput="updateResults()">
 
